@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal" />
+<LinearLayout
+    android:id="@+id/buttons"
+    android:layout_width="match_parent"
+    android:layout_weight="2"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:id="@+id/cButton1"
+        android:layout_weight="2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:id="@+id/cButton2"
+        android:layout_weight="2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</LinearLayout>
+
+</LinearLayout>
